@@ -1,0 +1,44 @@
+{
+  "id": "5c1be954-602a-4b80-b58e-c29b840fa3e4",
+  "name": "Clear e-Invoice",
+  "publisher": "Clear",
+  "version": "2.0.0.8",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "7106d701-c601-4a5f-97c2-b8b323ae2c18",
+      "publisher": "Microsoft",
+      "name": "QR Generator",
+      "version": "21.0.46256.47234" 
+    },
+    {
+      "id": "0ed3d265-3ad3-4608-a35a-280d6926641d",
+      "publisher": "Default publisher",
+      "name": "Clear Base App",
+      "version": "2.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50105
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "9.0",
+  "target": "Cloud",
+  "propagateDependencies": true
+}

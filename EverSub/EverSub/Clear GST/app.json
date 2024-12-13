@@ -1,0 +1,37 @@
+{
+  "id": "fd187ba3-17b1-472f-91fd-c1a782ada1aa",
+  "name": "Clear GST",
+  "publisher": "Clear",
+  "version": "2.0.0.3",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "0ed3d265-3ad3-4608-a35a-280d6926641d",
+      "publisher": "Clear",
+      "name": "Clear Base App",
+      "version": "2.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 50110,
+      "to": 50120
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "9.0",
+  "propagateDependencies": true
+}

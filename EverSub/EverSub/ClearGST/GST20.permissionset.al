@@ -1,0 +1,31 @@
+permissionset 50106 "GST2.0"
+{
+    Assignable = true;
+    Permissions = tabledata "Clear API Logs"=RIMD,
+        tabledata "Clear GST Setup"=RIMD,
+        tabledata "Clear Trans Hdr"=RIMD,
+        tabledata "Clear Trans Hdr Synced"=RIMD,
+        tabledata "Clear Trans line"=RIMD,
+        table "Clear API Logs"=X,
+        table "Clear GST Setup"=X,
+        table "Clear Trans Hdr"=X,
+        table "Clear Trans Hdr Synced"=X,
+        table "Clear Trans line"=X,
+        report "Clear Generate data"=X,
+        codeunit "Clear General functions"=X,
+        codeunit "Clear Generate Purch Cr. memo"=X,
+        codeunit "clear Generate Purch Inv data"=X,
+        codeunit "Clear Generate Purch XL"=X,
+        codeunit "Clear Generate Sales Cr. memo"=X,
+        codeunit "Clear Generate Sales Inv data"=X,
+        codeunit "Clear Generate Sales XL"=X,
+        codeunit "Clear Json Creation"=X,
+        codeunit "Clear Send request"=X,
+        page "Clear API Log"=X,
+        page "Clear API logs"=X,
+        page "Clear GST Setup"=X,
+        page "Clear Synced Transactions"=X,
+        page "Clear Transaction"=X,
+        page "Clear Transaction lines"=X,
+        page "Clear Transactions"=X;
+}

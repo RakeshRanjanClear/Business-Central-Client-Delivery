@@ -1,0 +1,31 @@
+permissionset 60115 ClearMaxITC
+{
+    Assignable = true;
+    Permissions = tabledata "ClearComp MaxITC Logs" = RIMD,
+        tabledata "ClearComp MaxITC Payment block" = RIMD,
+        tabledata "ClearComp MaxITC Payment Log" = RIMD,
+        tabledata "ClearComp MaxITC ReconResult" = RIMD,
+        tabledata "ClearComp MaxITC Setup" = RIMD,
+        tabledata "ClearComp MaxITC Trans. Header" = RIMD,
+        tabledata "ClearComp MaxITC Trans. Line" = RIMD,
+        tabledata "ClearComp ReconResults Blobs" = RIMD,
+        table "ClearComp MaxITC Logs" = X,
+        table "ClearComp MaxITC Payment block" = X,
+        table "ClearComp MaxITC Payment Log" = X,
+        table "ClearComp MaxITC ReconResult" = X,
+        table "ClearComp MaxITC Setup" = X,
+        table "ClearComp MaxITC Trans. Header" = X,
+        table "ClearComp MaxITC Trans. Line" = X,
+        table "ClearComp ReconResults Blobs" = X,
+        report "ClearComp MaxITC Transfer Data" = X,
+        codeunit "ClearComp MaxITC Job Queue" = X,
+        codeunit "ClearComp MaxITC Management" = X,
+        codeunit "Http Send Message" = X,
+        page "ClearComp MaxITC Logs" = X,
+        page "ClearComp MaxITC Payment block" = X,
+        page "ClearComp MaxITC Payment Log" = X,
+        page "ClearComp MaxITC setup" = X,
+        page "Clearcomp MaxITC Trans. Data" = X,
+        page "ClearComp MaxITC Trans. List" = X,
+        page "ClearComp MaxITC Trans.Subform" = X;
+}

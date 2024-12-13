@@ -1,0 +1,60 @@
+{
+  "id": "55adc1d5-c031-4f42-8c8a-7e101fbb5c77",
+  "name": "GST2.0",
+  "publisher": "Clear",
+  "version": "4.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "target": "Cloud",
+  "resourceExposurePolicy": {"allowDownloadingSource": false,"allowDebugging": true},
+  "propagateDependencies": true,
+  "dependencies": [
+    {
+      "id": "0ed3d265-3ad3-4608-a35a-280d6926641d",
+      "publisher": "Clear",
+      "name": "Clear Base App",
+      "version": "4.0.0.0"
+    },
+    
+    {
+      "id": "5c1be954-602a-4b80-b58e-c29b840fa3e4",
+      "name": "Clear e-Invoice",
+      "publisher": "Clear",
+      "version": "4.0.0.0"
+    },
+    {
+      "id": "db643212-b7fb-4dd4-b5a8-cb44ac714461",
+      "publisher": "Microsoft",
+      "name": "India GST",
+      "version": "24.2.20227.21800"
+    },
+    {
+      "id": "d3c551dd-5903-4194-b153-04ced9d29a2c",
+      "publisher": "Microsoft",
+      "name": "India Tax Base",
+      "version": "24.2.20227.21800"
+    },
+    
+    {
+      "id": "2dc39818-e0f0-42b6-99eb-ba29dc5f4102",
+      "publisher": "Microsoft",
+      "name": "India Gate Entry",
+      "version": "24.2.20227.20579"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 60000,
+      "to": 60010
+    }
+  ],
+  "runtime": "9.1"
+}
